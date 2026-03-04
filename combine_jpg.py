@@ -142,7 +142,7 @@ def is_exit(text: str) -> bool:
 def interactive_loop():
     print("—— 合并 JPG 图片（支持多副图）——")
     print("输入 Exit 可随时退出。")
-    print("缩放维度编号：1=左, 2=右, 3=上, 4=下")
+    print("缩放维度编号：1=左, 2=右, 3=上, 4=下；如果填入1，副图会被缩放以贴合主图左侧，以此类推。")
 
     while True:
         main_path = input("请输入主图片路径（或输入 Exit 退出）：").strip()
